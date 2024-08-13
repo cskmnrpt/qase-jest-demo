@@ -1,0 +1,26 @@
+{
+  "name": "qase-jest-demo",
+  "version": "2.0.0",
+  "description": "A demo project created by Qase support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "export QASE_MODE=testops; npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qase-tms/qase-javascript.git"
+  },
+  "keywords": [
+    "qase-jest"
+  ],
+  "author": "Qase.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qase-tms/qase-javascript/issues"
+  },
+  "homepage": "https://github.com/qase-tms/qase-javascript#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest-qase-reporter": "^2.0.1"
+  }
+}
